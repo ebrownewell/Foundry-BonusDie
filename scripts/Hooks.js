@@ -9,7 +9,6 @@ Hooks.on("ready", () => {
     game.socket.on('module.BonusDie', socketsHandle());
 })
 
-/* Magic one liner, I dont want to talk about this
-   bmarian made me do it, make issues on token tooltip alt
-   https://github.com/bmarian/token-tooltip-alt/issues */
-Hooks.on("renderPlayerList", (playerList, $playerList, players) => $playerList.find('ol').children().each(handle(players)));
+Hooks.on("renderPlayerList", (playerList, html, players) => {
+    html.find('ol').children().each(handle(players));
+});

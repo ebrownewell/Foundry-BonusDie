@@ -210,7 +210,7 @@ const bonusDieStructure = (player) => $(`<span id="${getSpanId(player)}">${getBo
  * @param index - index of the span
  */
 const getControls = (players, index) => {
-    const playerId = players.users[index].data._id;
+    const playerId = players.users[index]._id;
     const $bonusDie = bonusDieStructure(playerId);
     const buttonWithPlayer = button(playerId);
 
