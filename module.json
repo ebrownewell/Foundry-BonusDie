@@ -12,7 +12,7 @@
       "url": "https://github.com/ebrownewell"
     }
   ],
-  "version": "1.1.1",
+  "version": "1.1.2",
   "esmodules": ["scripts/Hooks.js"],
   "socket":true,
   "styles": ["styles/BonusDice.css"],
@@ -22,7 +22,7 @@
     "maximum": "10"
   },
   "url": "https://github.com/ebrownewell/Foundry-BonusDie",
-  "manifest": "https://github.com/ebrownewell/Foundry-BonusDie/releases/download/v1.1.1/module.json",
-  "download": "https://github.com/ebrownewell/Foundry-BonusDie/releases/download/v1.1.1/bonusDie.zip",
+  "manifest": "https://github.com/ebrownewell/Foundry-BonusDie/releases/download/v1.1.2/module.json",
+  "download": "https://github.com/ebrownewell/Foundry-BonusDie/releases/download/v1.1.2/bonusDie.zip",
   "changelog": ""
 }
